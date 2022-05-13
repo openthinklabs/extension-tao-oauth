@@ -1,6 +1,6 @@
 {
 
-    "name": "oat-sa/extension-tao-oauth",
+    "name": "openthinklabs/extension-tao-oauth",
     "description" : "Extension to easily configure an OAuth client for OAT platform.",
     "type" : "tao-extension",
     "authors" : [
