@@ -24,15 +24,47 @@
         "tao-extension-name" : "taoOauth"
     },
     "minimum-stability" : "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:openthinklabs/oatbox-extension-installer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:openthinklabs/generis.git"
+        },        
+        {
+            "type": "vcs",
+            "url": "git@github.com:openthinklabs/tao-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:openthinklabs/lib-generis-search.git"
+        },                                         
+        {
+            "type": "vcs",
+            "url": "git@github.com:openthinklabs/jig.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:openthinklabs/composer-npm-bridge.git"
+        }                                                                                                                                   
+    ],
     "require": {
-        "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+        "openthinklabs/oatbox-extension-installer": "1.2.2",
         "league/oauth2-client" : "~1.4.0",
-        "oat-sa/generis" : ">=14.0.0",
-        "oat-sa/tao-core" : ">=47.0.0"
+        "openthinklabs/generis" : "~15.11.0.5",
+        "openthinklabs/tao-core" : "~48.66.1.8"
     },
     "autoload" : {
         "psr-4" : {
             "oat\\taoOauth\\" : ""
         }
-    } 
+    },
+    "config": {
+        "allow-plugins": {
+            "openthinklabs/oatbox-extension-installer": true,
+            "openthinklabs/composer-npm-bridge": true
+        }
+    }
 }
