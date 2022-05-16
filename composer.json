@@ -53,8 +53,8 @@
     "require": {
         "openthinklabs/oatbox-extension-installer": "1.2.2",
         "league/oauth2-client" : "~1.4.0",
-        "openthinklabs/generis" : "~15.11.0.5",
-        "openthinklabs/tao-core" : "~48.66.1.8"
+        "openthinklabs/generis" : "~15.19.2.1",
+        "openthinklabs/tao-core" : "~50.11.1.3"
     },
     "autoload" : {
         "psr-4" : {
